@@ -1,0 +1,17 @@
+{
+    "version": "v0.03",
+    "description": "A CLI based task managment tool",
+    "homepage": "https://github.com/wackoisgod/barnacle/",
+    "license": "GPL-2.0",
+    "url": "https://github.com/wackoisgod/barnacle/releases/download/v0.03/barnacle-v0.03-x86_64-pc-windows-msvc.tar.gz",
+    "hash": "81E380DC0F3A4C1EF5CAA77EBE1893664326D4C6E7C3684BC04893209C9D2238",
+    "bin": "bc.exe",
+    "extract_dir": "barnacle-$version",
+    "checkver": {
+        "github": "https://github.com/wackoisgod/barnacle"
+    },
+    "autoupdate": {
+        "url": "https://github.com/wackoisgod/barnacle/releases/download/$version/barnacle-$version-x86_64-pc-windows-msvc.tar.gz",
+        "extract_dir": "barnacle-$version-x86_64-pc-windows-msvc"
+    }
+}
